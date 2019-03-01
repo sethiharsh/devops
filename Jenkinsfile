@@ -5,7 +5,7 @@ pipeline{
         BUILD_FILE_NAME="${PROJECT_NAME}_${BUILD_NUMBER}.tar.gz"              
     }
     stages{
-        stage('Build'){
+        stage('Build code'){
         //agent { label 'master' }              
             steps{               
                   sh "pwd"   
